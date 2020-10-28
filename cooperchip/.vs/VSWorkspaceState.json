@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Cooperchip.ITDeveloper.Mvc",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\Controllers",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\Views",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\Views\\Home",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\Views\\Shared",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\Views\\Shared\\PartialViews",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\wwwroot",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\wwwroot\\js",
+    "\\src\\Cooperchip.ITDeveloper.Mvc\\wwwroot\\js\\libs"
+  ],
+  "SelectedNode": "\\src\\Cooperchip.ITDeveloper.Mvc\\Views\\Shared\\PartialViews\\_scripts.cshtml",
+  "PreviewInSolutionExplorer": false
+}
