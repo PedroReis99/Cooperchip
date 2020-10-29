@@ -30,8 +30,6 @@
                     <div class="sidebar-panel">
                         <h5 class="sidebar-panel-title">Navigation</h5>
                     </div>
-                    <!-- / .sidebar-panel -->
-                    <!-- .side-nav -->
                     <div class="side-nav">
                         <ul class="nav">
 
@@ -41,14 +39,11 @@
 
                         </ul>
                     </div>
-                    <!-- / side-nav -->
 
                     @await Html.PartialAsync("PartialViews/_menu_inferior_left")
 
                 </div>
-                <!-- End .sidebar-inner -->
             </div>
-            <!-- End .sidebar-scrollarea -->
 
         </aside>
         <!-- / page-sidebar -->
@@ -61,40 +56,18 @@
             <div class="page-content-wrapper">
                 <div class="page-content-inner">
                     <!-- .page-content-inner -->
-                    <div id="page-header" class="clearfix">
-                        <div class="page-header">
-                            <h2>Dashboard</h2>
-                            <span class="txt">Welcome to Dynamic admin</span>
-                        </div>
-                        <div class="header-stats">
-                            <div class="spark clearfix">
-                                <div class="spark-info"><span class="number">2345</span>Visitors</div>
-                                <div id="spark-visitors" class="sparkline"></div>
-                            </div>
-                            <div class="spark clearfix">
-                                <div class="spark-info"><span class="number">17345</span>Views</div>
-                                <div id="spark-templateviews" class="sparkline"></div>
-                            </div>
-                            <div class="spark clearfix">
-                                <div class="spark-info"><span class="number">3700$</span>Sales</div>
-                                <div id="spark-sales" class="sparkline"></div>
-                            </div>
-                        </div>
-                    </div>
 
-                    @RenderBody();
+                    @await Html.PartialAsync("PartialViews/_sub_navbar")
+
+                    @RenderBody()
 
                 </div>
-                <!-- / .page-content-inner -->
             </div>
-            <!-- / page-content-wrapper -->
         </div>
-        <!-- / page-content -->
 
 
 
     </div>
-    <!-- / #wrapper -->
 
 
     @await Html.PartialAsync("PartialViews/_footer")
@@ -107,6 +80,7 @@
 
     @await Html.PartialAsync("PartialViews/_scripts")
 
+    @RenderSection("scripts", required: false)
 
 </body>
 </html>
