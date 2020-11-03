@@ -1,0 +1,9 @@
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\bin\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.deps.json
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\bin\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.dll
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\bin\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.pdb
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\obj\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\obj\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.AssemblyInfo.cs
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\obj\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\obj\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.dll
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\obj\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.pdb
+C:\Users\Dell\Desktop\Cursos\Udemy\DotNet\cooperchip\src\Cooperchip.ITDeveloper.Domain\obj\Debug\netcoreapp2.2\Cooperchip.ITDeveloper.Domain.csprojAssemblyReference.cache
