@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Cooperchip.ITDeveloper.Domain.Models.EstadoPaciente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<vc:cabecalho titulo="Medical Management-System / Pacientes"
+              subtitulo="Módulo de Administração do Estado dos Pacientes"></vc:cabecalho>
+
+@*@await Component.InvokeAsync("Cabecalho", new { Titulo = "", Subtitulo = ""})*@
+
+<div class="panel panel-info panel-controls">
+    <div>
+        <h3>Lista de Estados do Paciente</h3>
+    </div>
+    
+    <div class="panel panel-body">
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+    </div>
+</div>

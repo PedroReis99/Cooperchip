@@ -1,0 +1,34 @@
+﻿@model Cooperchip.ITDeveloper.Domain.Models.EstadoPaciente
+
+@{ ViewData["Title"] = "Edição Estado Pacientes"; }
+
+<vc:cabecalho titulo="Medical Management-System / Pacientes" 
+              subtitulo="Edição Estado dos Pacientes"></vc:cabecalho>
+
+<div class="panel panel-default panel-controls">
+    <div class="panel panel-heading">
+        <h3>Edição Estado Pacientes</h3>
+    </div>
+    <div class="panel panel-body">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Descricao" class="control-label"></label>
+                    <input asp-for="Descricao" class="form-control" />
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
