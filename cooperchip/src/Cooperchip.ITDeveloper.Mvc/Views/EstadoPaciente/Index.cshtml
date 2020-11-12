@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Cooperchip.ITDeveloper.Domain.Models.EstadoPaciente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<vc:cabecalho titulo="Medical Management-System / Pacientes"
+              subtitulo="Módulo de Administração do Estado dos Pacientes"></vc:cabecalho>
+
+@*@await Component.InvokeAsync("Cabecalho", new { Titulo = "", Subtitulo = ""})*@
+
+<div class="panel panel-info panel-controls">
+    <div>
+        <h3>Lista de Estados do Paciente</h3>
+    </div>
+    
+    <div class="panel panel-body">
+    <p>
+        <a asp-controller="EstadoPaciente" asp-action="Create" class="btn btn-info">
+            <i class="fa fa-plus-circle"></i>&nbsp; Adicionar Estado
+        </a>
+    </p>
+    
+        <table-grid Items="@Model"></table-grid>
+
+    </div>
+</div>
